@@ -8,7 +8,7 @@ export default {
     onClick: {},
     size: {
       control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
+      options: ['small', 'medium', 'large','x-large'],
     },
   },
 };
@@ -37,6 +37,12 @@ Large.args = {
   size: 'large',
   label: 'Button',
 };
+
+export const XLarge = Template.bind({});
+Large.args = {
+  label: 'Button',
+};
+
 
 export const Small = Template.bind({});
 Small.args = {
